@@ -1,42 +1,40 @@
-# My First Website Using React, Next.js, and Tailwind CSS
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## Description
-This is my first web application built using React, Next.js, and Tailwind CSS. The project showcases the power of these technologies to create a responsive, visually appealing, and efficient Single Page Application (SPA).
+## Getting Started
 
-## Technologies Used
-- **React**: For building reusable components and managing application state.
-- **Next.js**: For utilizing Static Site Generation (SSG) and Server-Side Rendering (SSR) for better performance and SEO.
-- **Tailwind CSS**: For creating responsive and aesthetically pleasing designs with utility-first classes.
+First, run the development server:
 
-## Features
-- Fully responsive design, optimized for all screen sizes.
-- Single Page Application (SPA) with smooth navigation.
-- Efficient and customizable design using modern best practices.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd <project-directory>
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
-5. Open your browser and visit `http://localhost:3000` to view the project.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Usage
-Feel free to explore the project, make modifications, and use it as a reference for your own React, Next.js, and Tailwind CSS applications.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Feedback
-I welcome all kinds of feedback and suggestions for improvement. Feel free to reach out or open an issue on the repository.
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
